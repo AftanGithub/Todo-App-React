@@ -1,3 +1,10 @@
+# Preview 1
+![todo-preview1](https://user-images.githubusercontent.com/75898512/178743729-22af1935-54cb-4eb2-858e-991fdcb66cc7.PNG)
+
+# Preview 2
+![todo-preview2](https://user-images.githubusercontent.com/75898512/178744027-314c64f3-5932-40df-b882-4e3864d792c3.PNG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
