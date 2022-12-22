@@ -10,18 +10,20 @@ function App () {
   const [newDescription, setNewDescription] = useState ('');
   const [completedTodos, setCompletedTodos] = useState ([]);
 
+  //function to add task in todo list
   const handleAddTodo = () => {
     let newTodoItem = {
       title: newTitle,
       description: newDescription,
     };
 
+    //function to update task in todo list
     let updatedTodoArr = [...allTodos];
     updatedTodoArr.push (newTodoItem);
     setTodos (updatedTodoArr);
     localStorage.setItem ('todolist', JSON.stringify (updatedTodoArr));
   };
-
+//function to delete task in todo list
   const handleDeleteTodo = index => {
     let reducedTodo = [...allTodos];
     reducedTodo.splice (index);
@@ -30,6 +32,7 @@ function App () {
     setTodos (reducedTodo);
   };
 
+  //function to add task in complete tab
   const handleComplete = index => {
     let now = new Date ();
     let dd = now.getDate ();
@@ -56,6 +59,7 @@ function App () {
     );
   };
 
+  //function to delete task from complete list
   const handleDeleteCompletedTodo = index => {
     let reducedTodo = [...completedTodos];
     reducedTodo.splice (index);
