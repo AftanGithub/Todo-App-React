@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import {AiOutlineDelete} from 'react-icons/ai';
-import {BsCheckLg} from 'react-icons/bs'
+import {BsCheckLg} from 'react-icons/bs';
 
 function App () {
   //all the states
